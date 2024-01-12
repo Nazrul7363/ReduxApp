@@ -5,7 +5,7 @@ const fetchPostStart = () => ({
   type: types.FETCH_POST_START,
 });
 
-const fetchPostSuccess = (posts) => ({  // Pass 'posts' as an argument
+const fetchPostSuccess = (posts) => ({  
   type: types.FETCH_POST_SUCCESS,
   payload: posts,
 });
